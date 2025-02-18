@@ -34,3 +34,13 @@ a3 = np.append(np4,[[7],[8]],axis=1); # append column wise
 # insert
 newarray = np.insert(np3,1,100); # insert 100 at index 1
 print(newarray);
+
+
+# ===========================================================================
+#4.3 Joining arrays
+ 
+a = np.array([[1,2,3],
+              [4,5,6]]);
+b= np.array([[5,6,7]]);
+r1 = np.concatenate((a,b),axis=0); # concatenate row wise
+print(r1);
